@@ -17,7 +17,7 @@ int main(){
     {
         handshakes(n);
     }
-    else
+    else if (n<=1)
     {
         printf("ERROR");
     }
