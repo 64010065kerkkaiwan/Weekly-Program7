@@ -12,7 +12,15 @@ int main(){
     int n ;
     printf("number of people : " );
     scanf("%d",&n);
-    total(n);
+    if (n>1)
+    {
+        total(n);
+    }
+    else
+    {
+        printf("ERROR");
+    }
+    
     return 0 ;
 }
 //ใช้สูตร  [n(n-1)]/2
