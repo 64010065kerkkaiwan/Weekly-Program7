@@ -13,7 +13,11 @@ int main(){
     int n ;
     printf("number of people : " );
     scanf("%d",&n);
-    handshakes(n);
+    if (n>1)
+    {
+        handshakes(n);
+    }
+    
     return 0 ;
 }
 //ใช้สูตร  [n(n-1)]/2
